@@ -1,12 +1,17 @@
+*{
+    font-family: "Open Sans Condensed", sans-serif, serif ;
+}
 header {
     background-color: #E5E5E5;
     
 }
 img {
-    border-radius: 8px;
+   
+    border-radius: 20%;
     display: block;
-    margin: auto;
-    }
+    padding: 20px;
+    margin:auto;
+}
 
 h1 {
     background-color: #C4C4C4;
@@ -16,39 +21,55 @@ h1 {
     text-align: center;
 }
 
-body {
-    line-height: 26px;
-}
 .sub {
     color: #005677;
     background-color:#C4C4C4;
     text-transform: uppercase;
-    letter-spacing: 0.4em;
+    letter-spacing: 0.2em;
+}
+ul {
+    font-size: 22px;
 }
 
 .categoria {
     font-style: italic;
     font-weight: bold;
+    font-size: 22px;
 
 }
 .categoria1 {
     font-weight: bold;
+    font-size: 22px;
+}
+.categoria3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+dt{
+    font-size: 22px;
 }
 
+dd {
+    font-size: 22px;
+    font-style: italic;
+}
 footer {
     display: flex;
     align-items: center;
     background-color: #005677;
-}
-
-p {
-    color: #FFFFFF;
+    color: #C4C4C4;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
-}
-img {
     justify-content: center;
-    align-items:center
+   
 }
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: #C4C4C4;
+}
+ #icon {
+     font-size: 27px;
+     text-align: center;
+ }
